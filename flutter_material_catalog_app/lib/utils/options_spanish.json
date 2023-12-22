@@ -1,0 +1,825 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "name": "Badge",
+      "description": "Una Badge puede contener información dinámica, como la presencia de una nueva notificación o la cantidad de solicitudes pendientes. Las insignias pueden ser solo iconos o contener un breve texto.",
+      "items": [
+        {
+          "id": 1,
+          "name": "NavigationBarItemWithBadge",
+          "description": "Badge examples"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Bottom App Bar",
+      "description": "Una Bottom app bar muestra la navegación y las acciones clave en la parte inferior de las pantallas móviles.",
+      "items": [
+        {
+          "id": 1,
+          "name": "SimpleBottomAppBar",
+          "description": "Bottom app bar examples"
+        },
+        {
+          "id": 2,
+          "name": "BottomAppBarWithFAB",
+          "description": "Bottom app bar examples"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Bottom Sheet",
+      "description": "Las Bottom Sheets son superficies que contienen contenido complementario, ancladas en la parte inferior de la pantalla.",
+      "items": [
+        {
+          "id": 1,
+          "name": "ModalBottomSheetSample",
+          "description": "Bottom Sheet examples"
+        },
+        {
+          "id": 2,
+          "name": "SimpleBottomSheetScaffoldSample",
+          "description": "Bottom Sheet examples"
+        },
+        {
+          "id": 3,
+          "name": "BottomSheetScaffoldNestedScrollSample",
+          "description": "Bottom Sheet examples"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Buttons",
+      "description": "Los botones ayudan a las personas a iniciar acciones, desde enviar un correo electrónico, compartir un documento, hasta dar \"me gusta\" a una publicación.",
+      "items": [
+        {
+          "id": 1,
+          "name": "ButtomSample",
+          "description": "Button examples"
+        },
+        {
+          "id": 2,
+          "name": "ElevatedButtonSample",
+          "description": "Button examples"
+        },
+        {
+          "id": 3,
+          "name": "FilledTonalButtonSample",
+          "description": "Button examples"
+        },
+        {
+          "id": 4,
+          "name": "OutlinedButtonSample",
+          "description": "Button examples"
+        },
+        {
+          "id": 5,
+          "name": "TextButtonSample",
+          "description": "Button examples"
+        },
+        {
+          "id": 6,
+          "name": "ButtonWithIconSample",
+          "description": "Button examples"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Card",
+      "description": "Las tarjetas contienen contenido y acciones que proporcionan información sobre un tema.",
+      "items": [
+        {
+          "id": 1,
+          "name": "CardSample",
+          "description": "Button examples"
+        },
+        {
+          "id": 2,
+          "name": "ClickableCardSample",
+          "description": "Button examples"
+        },
+        {
+          "id": 3,
+          "name": "ElevatedCardSample",
+          "description": "Button examples"
+        },
+        {
+          "id": 4,
+          "name": "ClickableElevatedCardSample",
+          "description": "Button examples"
+        },
+        {
+          "id": 5,
+          "name": "OutlinedCardSample",
+          "description": "Button examples"
+        },
+        {
+          "id": 6,
+          "name": "ClickableOutlinedCardSample",
+          "description": "Button examples"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Checkboxes",
+      "description": "Los checkboxes permiten al usuario seleccionar uno o varios elementos de un conjunto o activar o desactivar una opción.",
+      "items": [
+        {
+          "id": 1,
+          "name": "CheckboxSample",
+          "description": "Checkbox examples"
+        },
+        {
+          "id": 2,
+          "name": "CheckboxWithTextSample",
+          "description": "Checkbox examples"
+        },
+        {
+          "id": 3,
+          "name": "TriStateCheckboxSample",
+          "description": "Checkbox examples"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Chips",
+      "description": "Las chips permiten a los usuarios ingresar información, hacer selecciones, filtrar contenido o activar acciones.",
+      "items": [
+        {
+          "id": 1,
+          "name": "AssistChipSample",
+          "description": "Chips examples"
+        },
+        {
+          "id": 2,
+          "name": "ElevatedAssistChipSample",
+          "description": "Chips examples"
+        },
+        {
+          "id": 3,
+          "name": "FilterChipSample",
+          "description": "Chips examples"
+        },
+        {
+          "id": 4,
+          "name": "ElevatedFilterChipSample",
+          "description": "Chips examples"
+        },
+        {
+          "id": 5,
+          "name": "FilterChipWithLeadingIconSample",
+          "description": "Chips examples"
+        },
+        {
+          "id": 6,
+          "name": "InputChipSample",
+          "description": "Chips examples"
+        },
+        {
+          "id": 7,
+          "name": "InputChipWithAvatarSample",
+          "description": "Chips examples"
+        },
+        {
+          "id": 8,
+          "name": "SuggestionChipSample",
+          "description": "Chips examples"
+        },
+        {
+          "id": 9,
+          "name": "ElevatedSuggestionChipSample",
+          "description": "Chips examples"
+        },
+        {
+          "id": 10,
+          "name": "ChipGroupSingleLineSample",
+          "description": "Chips examples"
+        },
+        {
+          "id": 11,
+          "name": "ChipGroupReflowSample",
+          "description": "Chips examples"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Date Pickers",
+      "description": "Los Date Pickers permiten a los usuarios elegir una fecha o rango de fechas.",
+      "items": [
+        {
+          "id": 1,
+          "name": "DatePickerSample",
+          "description": "Date picker examples"
+        },
+        {
+          "id": 2,
+          "name": "DatePickerDialogSample",
+          "description": "Date picker examples"
+        },
+        {
+          "id": 3,
+          "name": "DatePickerWithDateSelectableDatesSample",
+          "description": "Date picker examples"
+        },
+        {
+          "id": 4,
+          "name": "DateInputSample",
+          "description": "Date picker examples"
+        },
+        {
+          "id": 5,
+          "name": "DateRangePickerSample",
+          "description": "Date picker examples"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Dialogs",
+      "description": "Los diálogos proporcionan avisos importantes en el flujo del usuario. Pueden requerir una acción, comunicar información o ayudar a los usuarios a realizar una tarea.",
+      "items": [
+        {
+          "id": 1,
+          "name": "AlertDialogSample",
+          "description": "Dialog examples"
+        },
+        {
+          "id": 2,
+          "name": "AlertDialogWithIconSample",
+          "description": "Dialog examples"
+        },
+        {
+          "id": 3,
+          "name": "AlertDialogWithCustomContentSample",
+          "description": "Dialog examples"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Extended FAB",
+      "description": "Los FAB extendidos ayudan a las personas a realizar acciones principales. Son más anchos que los FAB para dar cabida a una etiqueta de texto y a una zona de destino más grande.",
+      "items": [
+        {
+          "id": 1,
+          "name": "ExtendedFloatingActionButtonSample",
+          "description": "Extended FAB examples"
+        },
+        {
+          "id": 2,
+          "name": "ExtendedFloatingActionButtonTextSample",
+          "description": "Extended FAB examples"
+        },
+        {
+          "id": 3,
+          "name": "AnimatedExtendedFloatingActionButtonSample",
+          "description": "Extended FAB examples"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Floating action buttons",
+      "description": "El FAB representa la acción más importante en una pantalla. Coloca acciones clave al alcance del usuario.",
+      "items": [
+        {
+          "id": 1,
+          "name": "FloatingActionButtonSample",
+          "description": "Floating action button examples"
+        },
+        {
+          "id": 2,
+          "name": "LargeFloatingActionButtonSample",
+          "description": "Floating action button examples"
+        },
+        {
+          "id": 3,
+          "name": "SmallFloatingActionButtonSample",
+          "description": "Floating action button examples"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Icon buttons",
+      "description": "Los botones de iconos permiten a los usuarios realizar acciones y tomar decisiones con un solo toque.",
+      "items": [
+        {
+          "id": 1,
+          "name": "IconButtonSample",
+          "description": "Icon button examples"
+        },
+        {
+          "id": 2,
+          "name": "IconToggleButtonSample",
+          "description": "Icon button examples"
+        },
+        {
+          "id": 3,
+          "name": "FilledIconButtonSample",
+          "description": "Icon button examples"
+        },
+        {
+          "id": 4,
+          "name": "FilledIconToggleButtonSample",
+          "description": "Icon button examples"
+        },
+        {
+          "id": 5,
+          "name": "FilledTonalIconButtonSample",
+          "description": "Icon button examples"
+        },
+        {
+          "id": 6,
+          "name": "FilledTonalIconToggleButtonSample",
+          "description": "Icon button examples"
+        },
+        {
+          "id": 7,
+          "name": "OutlinedIconButtonSample",
+          "description": "Icon button examples"
+        },
+        {
+          "id": 8,
+          "name": "OutlinedIconToggleButtonSample",
+          "description": "Icon button examples"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "List",
+      "description": "Las listas son índices continuos y verticales de texto o imágenes.",
+      "items": [
+        {
+          "id": 1,
+          "name": "OneLineListItem",
+          "description": "List examples"
+        },
+        {
+          "id": 2,
+          "name": "TwoLineListItem",
+          "description": "List examples"
+        },
+        {
+          "id": 3,
+          "name": "ThreeLineListItem",
+          "description": "List examples"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Menus",
+      "description": "Los menús muestran una lista de opciones en superficies temporales.",
+      "items": [
+        {
+          "id": 1,
+          "name": "MenuSample",
+          "description": "Menus examples"
+        },
+        {
+          "id": 2,
+          "name": "MenuWithScrollStateSample",
+          "description": "Menus examples"
+        },
+        {
+          "id": 3,
+          "name": "ExposedDropdownMenuSample",
+          "description": "Menus examples"
+        },
+        {
+          "id": 4,
+          "name": "EditableExposedDropdownMenuSample",
+          "description": "Menus examples"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Navigation bar",
+      "description": "Las barras de navegación ofrecen una forma persistente y conveniente de cambiar entre destinos principales en una aplicación.",
+      "items": [
+        {
+          "id": 1,
+          "name": "NavigationBarSample",
+          "description": "Menus examples"
+        },
+        {
+          "id": 2,
+          "name": "NavigationBarWithOnlySelectedLabelsSample",
+          "description": "Menus examples"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Navigation drawer",
+      "description": "Los cajones de navegación proporcionan acceso ergonómico a destinos en una aplicación.",
+      "items": [
+        {
+          "id": 1,
+          "name": "ModalNavigationDrawerSample",
+          "description": "Navigation drawer examples"
+        },
+        {
+          "id": 2,
+          "name": "PermanentNavigationDrawerSample",
+          "description": "Navigation drawer examples"
+        },
+        {
+          "id": 3,
+          "name": "DismissibleNavigationDrawerSample",
+          "description": "Navigation drawer examples"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Navigation rail",
+      "description": "Las barras de navegación ofrecen acceso a destinos principales en aplicaciones cuando se utilizan pantallas de tabletas y escritorio.",
+      "items": [
+        {
+          "id": 1,
+          "name": "NavigationRailSample",
+          "description": "Navigation rail examples"
+        },
+        {
+          "id": 2,
+          "name": "NavigationRailWithOnlySelectedLabelsSample",
+          "description": "Navigation rail examples"
+        },
+        {
+          "id": 3,
+          "name": "NavigationRailBottomAlignSample",
+          "description": "Navigation rail examples"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Progress Indicators",
+      "description": "Los indicadores de progreso expresan un tiempo de espera no especificado o muestran la duración de un proceso.",
+      "items": [
+        {
+          "id": 1,
+          "name": "LinearProgressIndicatorSample",
+          "description": "Progress indicators examples"
+        },
+        {
+          "id": 2,
+          "name": "IndeterminateLinearProgressIndicatorSample",
+          "description": "Progress indicators examples"
+        },
+        {
+          "id": 3,
+          "name": "CircularProgressIndicatorSample",
+          "description": "Progress indicators examples"
+        },
+        {
+          "id": 4,
+          "name": "IndeterminateCircularProgressIndicatorSample",
+          "description": "Progress indicators examples"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Radio buttons",
+      "description": "Los botones de radio permiten al usuario seleccionar una opción de un conjunto.\n\n\n\n\n\n",
+      "items": [
+        {
+          "id": 1,
+          "name": "RadioButtonSample",
+          "description": "Radio button examples"
+        },
+        {
+          "id": 2,
+          "name": "RadioGroupSample",
+          "description": "Radio button examples"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Search bars",
+      "description": "Las barras de búsqueda permiten a los usuarios ingresar una palabra clave o frase y obtener información relevante.",
+      "items": [
+        {
+          "id": 1,
+          "name": "SearchBarSample",
+          "description": "Search bar examples"
+        },
+        {
+          "id": 2,
+          "name": "DockedSearchBarSample",
+          "description": "Search bar examples"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Sliders",
+      "description": "Los deslizadores permiten a los usuarios hacer selecciones dentro de un rango de valores.",
+      "items": [
+        {
+          "id": 1,
+          "name": "SliderSample",
+          "description": "Sliders examples"
+        },
+        {
+          "id": 2,
+          "name": "StepsSliderSample",
+          "description": "Sliders examples"
+        },
+        {
+          "id": 3,
+          "name": "SliderWithCustomThumbSample",
+          "description": "Sliders examples"
+        },
+        {
+          "id": 4,
+          "name": "SliderWithCustomTrackAndThumb",
+          "description": "Sliders examples"
+        },
+        {
+          "id": 5,
+          "name": "RangeSliderSample",
+          "description": "Sliders examples"
+        },
+        {
+          "id": 6,
+          "name": "StepRangeSliderSample",
+          "description": "Sliders examples"
+        },
+        {
+          "id": 7,
+          "name": "RangeSliderWithCustomComponents",
+          "description": "Sliders examples"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Snackbars",
+      "description": "Las barras de notificación proporcionan mensajes breves sobre procesos de la aplicación en la parte inferior de la pantalla.",
+      "items": [
+        {
+          "id": 1,
+          "name": "ScaffoldWithSimpleSnackbar",
+          "description": "Snackbars examples"
+        },
+        {
+          "id": 2,
+          "name": "ScaffoldWithIndefiniteSnackbar",
+          "description": "Snackbars examples"
+        },
+        {
+          "id": 3,
+          "name": "ScaffoldWithCustomSnackbar",
+          "description": "Snackbars examples"
+        },
+        {
+          "id": 4,
+          "name": "ScaffoldWithMultilineSnackbar",
+          "description": "Snackbars examples"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Switches",
+      "description": "Los interruptores cambian el estado de un solo ajuste de encendido o apagado.",
+      "items": [
+        {
+          "id": 1,
+          "name": "SwitchSample",
+          "description": "Switch examples"
+        },
+        {
+          "id": 2,
+          "name": "SwitchWithThumbIconSample",
+          "description": "Switch examples"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Tabs",
+      "description": "Las pestañas organizan el contenido en diferentes pantallas, conjuntos de datos y otras interacciones.",
+      "items": [
+        {
+          "id": 1,
+          "name": "TextTabs",
+          "description": "Tabs examples"
+        },
+        {
+          "id": 2,
+          "name": "IconTabs",
+          "description": "Tabs examples"
+        },
+        {
+          "id": 3,
+          "name": "TextAndIconTabs",
+          "description": "Tabs examples"
+        },
+        {
+          "id": 4,
+          "name": "LeadingIconTabs",
+          "description": "Tabs examples"
+        },
+        {
+          "id": 5,
+          "name": "LeadingIconTabs",
+          "description": "Tabs examples"
+        },
+        {
+          "id": 6,
+          "name": "ScrollingTextTabs",
+          "description": "Tabs examples"
+        },
+        {
+          "id": 7,
+          "name": "FancyTabs",
+          "description": "Tabs examples"
+        },
+        {
+          "id": 8,
+          "name": "FancyIndicatorTabs",
+          "description": "Tabs examples"
+        },
+        {
+          "id": 9,
+          "name": "FancyIndicatorContainerTabs",
+          "description": "Tabs examples"
+        },
+        {
+          "id": 10,
+          "name": "ScrollingFancyIndicatorContainerTabs",
+          "description": "Tabs examples"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Text fields",
+      "description": "Los campos de texto permiten a los usuarios ingresar y editar texto.",
+      "items": [
+        {
+          "id": 1,
+          "name": "SimpleTextFieldSample",
+          "description": "Text fields examples"
+        },
+        {
+          "id": 2,
+          "name": "TextFieldSample",
+          "description": "Text fields examples"
+        },
+        {
+          "id": 3,
+          "name": "SimpleOutlinedTextFieldSample",
+          "description": "Text fields examples"
+        },
+        {
+          "id": 4,
+          "name": "OutlinedTextFieldSample",
+          "description": "Text fields examples"
+        },
+        {
+          "id": 5,
+          "name": "TextFieldWithIcons",
+          "description": "Text fields examples"
+        },
+        {
+          "id": 6,
+          "name": "TextFieldWithPlaceholder",
+          "description": "Text fields examples"
+        },
+        {
+          "id": 7,
+          "name": "TextFieldWithPrefixAndSuffix",
+          "description": "Text fields examples"
+        },
+        {
+          "id": 8,
+          "name": "TextFieldWithErrorState",
+          "description": "Text fields examples"
+        },
+        {
+          "id": 9,
+          "name": "TextFieldWithSupportingText",
+          "description": "Text fields examples"
+        },
+        {
+          "id": 10,
+          "name": "PasswordTextField",
+          "description": "Text fields examples"
+        },
+        {
+          "id": 11,
+          "name": "TextFieldWithHideKeyboardOnlmeAction",
+          "description": "Text fields examples"
+        },
+        {
+          "id": 12,
+          "name": "TextArea",
+          "description": "Text fields examples"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Tooltips",
+      "description": "Las descripciones emergentes llaman la atención del usuario hacia un componente de anclaje.",
+      "items": [
+        {
+          "id": 1,
+          "name": "PlainTooltipSample",
+          "description": "Tooltips examples"
+        },
+        {
+          "id": 2,
+          "name": "PlainTooltipWithManualInvocationSample",
+          "description": "Tooltips examples"
+        },
+        {
+          "id": 3,
+          "name": "RichTooltipSample",
+          "description": "Tooltips examples"
+        },
+        {
+          "id": 4,
+          "name": "RichTooltipWithManualInvocationSample",
+          "description": "Tooltips examples"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Time Pickers",
+      "description": "El selector de tiempo permite al usuario elegir la hora del día.",
+      "items": [
+        {
+          "id": 1,
+          "name": "TimePickerSample",
+          "description": "Time Pickers examples"
+        },
+        {
+          "id": 2,
+          "name": "TimeInputSample",
+          "description": "Time Pickers examples"
+        },
+        {
+          "id": 3,
+          "name": "TimePickerSwitchableSample",
+          "description": "Time Pickers examples"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Top app bar",
+      "description": "Las barras superiores de aplicaciones muestran información y acciones en la parte superior de la pantalla.",
+      "items": [
+        {
+          "id": 1,
+          "name": "SimpleTopAppBar",
+          "description": "Top app bar examples"
+        },
+        {
+          "id": 2,
+          "name": "SimpleCenterAlignedTopAppBar",
+          "description": "Top app bar examples"
+        },
+        {
+          "id": 3,
+          "name": "PinnedTopAppBar",
+          "description": "Top app bar examples"
+        },
+        {
+          "id": 4,
+          "name": "EnterAlwaysTopAppBar",
+          "description": "Top app bar examples"
+        },
+        {
+          "id": 5,
+          "name": "ExitUntilCollapsedMediumTopAppBar",
+          "description": "Top app bar examples"
+        },
+        {
+          "id": 6,
+          "name": "ExitUntilCollapsedLargeTopAppBar",
+          "description": "Top app bar examples"
+        }
+      ]
+    }
+  ]
+}
