@@ -45,13 +45,27 @@ class HomeScreen extends StatelessWidget {
 class _BodyContent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return Padding(
+      padding: const EdgeInsets.all(16),
       child: Column(
         children: [
           Expanded(
             child: Container(
               width: double.infinity,
-              child: Text('fd'),
+              child: Card(
+                elevation: 0,
+                shape: RoundedRectangleBorder(
+                  side: BorderSide(
+                    color: Theme.of(context).colorScheme.outline,
+                  ),
+                  borderRadius: const BorderRadius.all(Radius.circular(12)),
+                ),
+                child: const SizedBox(
+                  width: 300,
+                  height: 100,
+                  child: Center(child: Text('Outlined Card')),
+                ),
+              ),
             ),
           ),
         ],
