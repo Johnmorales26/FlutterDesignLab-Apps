@@ -1,4 +1,6 @@
 {
+  "main_modal_bottom_sheet_theme": "Tema",
+  "main_modal_bottom_sheet_text_direction": "Dirección del texto",
   "menu": [
     {
       "id": 1,

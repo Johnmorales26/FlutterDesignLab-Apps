@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_material_catalog_app/AppLocations.dart';
 import 'package:flutter_material_catalog_app/providers/ui_provider.dart';
 
 Widget buildBottomSheet(BuildContext context, UiProvider uiProvider,
@@ -15,13 +16,18 @@ Widget buildBottomSheet(BuildContext context, UiProvider uiProvider,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Text('Theme'),
+          Text(AppLocalizations.of(context)
+                  ?.translate('main_modal_bottom_sheet_theme') ??
+              ''),
           ThemeOptionWidget(
               uiProvider: uiProvider, systemBrightness: systemBrightness),
           const Divider(),
-          const Text('Text direction'),
+          Text(AppLocalizations.of(context)
+                  ?.translate('main_modal_bottom_sheet_text_direction') ??
+              ''),
           TextDirectionOptionsWidget(
               uiProvider: uiProvider, systemTextDirection: systemTextDirection),
+          const Divider(),
         ],
       ),
     ),
