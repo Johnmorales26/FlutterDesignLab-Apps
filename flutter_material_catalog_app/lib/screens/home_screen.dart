@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_material_catalog_app/providers/ui_provider.dart';
 import 'package:flutter_material_catalog_app/widgets/main_bottom_sheet.dart';
+import 'package:flutter_material_catalog_app/widgets/main_card_option.dart';
 import 'package:provider/provider.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -36,38 +37,25 @@ class HomeScreen extends StatelessWidget {
             ),
           ],
         ),
-        body: _BodyContent(),
+        body: _BodyContent(systemBrightness: systemBrightness),
       ),
     );
   }
 }
 
 class _BodyContent extends StatelessWidget {
+
+  final Brightness systemBrightness;
+
+  const _BodyContent({required this.systemBrightness});
+
   @override
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.all(16),
       child: Column(
         children: [
-          Expanded(
-            child: Container(
-              width: double.infinity,
-              child: Card(
-                elevation: 0,
-                shape: RoundedRectangleBorder(
-                  side: BorderSide(
-                    color: Theme.of(context).colorScheme.outline,
-                  ),
-                  borderRadius: const BorderRadius.all(Radius.circular(12)),
-                ),
-                child: const SizedBox(
-                  width: 300,
-                  height: 100,
-                  child: Center(child: Text('Outlined Card')),
-                ),
-              ),
-            ),
-          ),
+          MainCardOption(systemBrightness: systemBrightness),
         ],
       ),
     );
