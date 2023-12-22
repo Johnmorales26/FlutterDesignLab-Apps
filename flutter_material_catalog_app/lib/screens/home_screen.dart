@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_material_catalog_app/models/languaje.dart';
 import 'package:flutter_material_catalog_app/providers/ui_provider.dart';
+import 'package:flutter_material_catalog_app/utils/utils.dart';
 import 'package:flutter_material_catalog_app/widgets/main_bottom_sheet.dart';
 import 'package:flutter_material_catalog_app/widgets/main_card_option.dart';
 import 'package:provider/provider.dart';
@@ -44,21 +46,37 @@ class HomeScreen extends StatelessWidget {
 }
 
 class _BodyContent extends StatelessWidget {
-
   final Brightness systemBrightness;
 
   const _BodyContent({required this.systemBrightness});
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(16),
-      child: Column(
-        children: [
-          MainCardOption(systemBrightness: systemBrightness),
-          const Text('Item Lenght:')
-        ],
-      ),
+    return FutureBuilder<Languajes?>(
+      // Llama a tu función fetchData dentro de future.
+      future: readMainOptionsFromJSON(),
+      builder: (context, snapshot) {
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          // Mientras espera la respuesta, puedes mostrar un indicador de carga.
+          return const CircularProgressIndicator();
+        } else if (snapshot.hasError) {
+          // En caso de error, puedes mostrar un mensaje de error.
+          return Text('Error: ${snapshot.error}');
+        } else if (snapshot.hasData) {
+          // Cuando la operación asincrónica se completa con éxito, puedes trabajar con el resultado.
+          final result = snapshot.data!;
+          // Ahora puedes utilizar 'result' en tu pantalla.
+          return ListView.builder(
+            itemCount: result.menu.length,
+            itemBuilder: (context, index) {
+              return MainCardOption(systemBrightness: systemBrightness, menu: result.menu[index]);
+            },
+          );
+        } else {
+          // Si no hay errores, pero no hay datos aún, puedes mostrar un mensaje apropiado.
+          return Text('No se recibieron datos');
+        }
+      },
     );
   }
 }
